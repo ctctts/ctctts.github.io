@@ -10,18 +10,20 @@
     .page { max-width: 1200px; margin: 0 auto; padding: 28px 24px 40px; }
     h1 { margin: 0 0 6px 0; font-size: 30px; letter-spacing: 0.2px; }
     .meta { color: var(--muted); margin-bottom: 18px; font-size: 14px; }
-    .abstract { background: #ffffff; border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 0 0 20px 0; box-shadow: 0 4px 14px rgba(17, 24, 39, 0.06); text-align: left; }
+    .abstract { background: #ffffff; border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 0 0 20px 0; box-shadow: 0 4px 14px rgba(17, 24, 39, 0.06); text-align: center; }
     .abstract h2 { margin: 0 0 8px 0; font-size: 18px; }
-    .abstract p { margin: 0; color: #374151; line-height: 1.6; font-size: 14px; }
-    .section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 18px 0; box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06); text-align: left; }
-    .section h2 { margin: 0 0 6px 0; font-size: 20px; }
-    .desc { margin: 0 0 16px 0; color: var(--muted); font-size: 14px; }
+    .abstract p { margin: 0; color: #374151; line-height: 1.6; font-size: 14px; text-align: left; }
+    .section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 18px 0; box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06); text-align: center; }
+    .section h2 { margin: 0 0 6px 0; font-size: 20px; text-align: center; }
+    .desc { margin: 0 0 16px 0; color: var(--muted); font-size: 14px; text-align: center; }
+    .item-head { text-align: left; }
+    .grid { text-align: left; }
     .item { border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-bottom: 14px; background: #fbfbff; transition: transform 0.15s ease, box-shadow 0.15s ease; }
     .item:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(17, 24, 39, 0.08); }
     .item-head { display: grid; gap: 6px; margin-bottom: 10px; }
     .item-id { font-weight: 600; font-size: 14px; color: #111827; }
     .item-text { color: #374151; line-height: 1.6; font-size: 14px; text-align: left; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
     .cell { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px; display: grid; gap: 8px; }
     .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
     audio { width: 100%; accent-color: var(--accent); }
